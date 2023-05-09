@@ -22,7 +22,10 @@ const settings = {
     devServer: {
         static: {
             directory: path.join(__dirname, 'dist'),
-        }
+        },
+        devMiddleware: {
+            writeToDisk: true,
+        },
     },
     module: {
         rules: [

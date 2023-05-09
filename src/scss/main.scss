@@ -2,7 +2,7 @@ $test: blue;
 
 body {
   h1 {
-    background: blue;
-    font-size: 80px;
+    background: $test;
+    color: white;
   }
 }
