@@ -37,6 +37,10 @@ const settings = {
                     'sass-loader',
                 ],
             },
+            {
+                test: /\.(png|jpg|gif)$/i,
+                type: 'asset/resource',
+            }
         ],
     },
     plugins: [

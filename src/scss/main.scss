@@ -1,6 +1,7 @@
 $test: blue;
 
 body {
+  background-image: url(../images/backgrounds/_nice_bg.png);
   h1 {
     background: $test;
     color: white;
