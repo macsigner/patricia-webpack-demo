@@ -19,6 +19,11 @@ const settings = {
         path: path.resolve(__dirname, 'dist'),
         assetModuleFilename: 'assets/[name]-[hash][ext]',
     },
+    devServer: {
+        static: {
+            directory: path.join(__dirname, 'dist'),
+        }
+    },
     module: {
         rules: [
             {
